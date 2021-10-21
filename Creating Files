@@ -1,0 +1,10 @@
+import os
+import time
+
+output=r'C:\Users\DELL\Desktop\Processing'
+
+
+while True:
+    for i in range(1, 21):
+        file=open(output+'\yourfilename'+str(i)+'.txt','w')
+        time.sleep(1)
